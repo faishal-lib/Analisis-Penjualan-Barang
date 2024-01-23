@@ -6,6 +6,10 @@ from sklearn.metrics import silhouette_score
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# Install scikit-learn
+st.write("Installing required libraries...")
+st.run("pip install -U scikit-learn")
+
 # Load the dataset
 df = pd.read_csv("penjualan_barang.csv")
 
